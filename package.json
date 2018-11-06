@@ -1,0 +1,16 @@
+{
+  "name": "node-dailywallpaper",
+  "version": "1.0.0",
+  "description": "Auto set bing daily wallpaper on different platforms that support nodejs",
+  "main": "dailywallpaper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dailywallpaper": "./dailywallpaper.js",
+  "author": "fsx950223",
+  "license": "ISC",
+  "dependencies": {
+    "cross-fetch": "^2.2.3",
+    "node-schedule": "^1.3.0"
+  }
+}
